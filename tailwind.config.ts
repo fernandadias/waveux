@@ -54,7 +54,7 @@ const config: Config = {
                     4: "#6C7275",
                     5: "#343839",
                     6: "#232627",
-                    7: "#141718",
+                    7: "#121212",
                 },
             },
             spacing: {
@@ -223,6 +223,12 @@ const config: Config = {
             addUtilities({
                 ".tap-highlight-color": {
                     "-webkit-tap-highlight-color": "rgba(0, 0, 0, 0)",
+                },
+                ".icon-primary": {
+                    "@apply fill-primary-1 transition-colors hover:fill-primary-1/90": {},
+                },
+                ".icon-primary-hover": {
+                    "@apply fill-n-4 transition-colors hover:fill-primary-1": {},
                 },
             });
         }),
