@@ -1,7 +1,5 @@
-import { useState } from "react";
 import Menu from "@/components/Menu";
-
-import { navigation } from "@/constants/navigation";
+import { waves } from "@/constants/waves";
 
 type MainProps = {};
 
@@ -16,7 +14,7 @@ const Main = ({}: MainProps) => {
                     Experimente o poder da IA para deixar o seu trabalho com o que realmente importa: criatividade, empatia e inovação.
                 </div>
             </div>
-            <Menu className="max-w-[80rem] mx-auto" items={navigation} />
+            <Menu className="max-w-[80rem] mx-auto" items={waves} />
         </div>
     );
 };
