@@ -8,19 +8,19 @@ import Form from "./Form";
 const SignInPage = () => {
     return (
         <div className="relative flex min-h-screen min-h-screen-ios lg:p-6 md:px-6 md:pt-16 md:pb-10">
-            <div className="relative shrink-0 w-[40rem] p-20 overflow-hidden flex flex-col justify-center items-center 2xl:w-[37.5rem] xl:w-[30rem] xl:p-10 lg:hidden">
+            <div className="relative shrink-0 w-[40rem] p-20 overflow-hidden flex flex-col justify-center 2xl:w-[37.5rem] xl:w-[30rem] xl:p-10 lg:hidden">
                 <div className="max-w-[25.4rem]">
                     <Image
-                        className="w-[200px] h-auto mb-8 mx-auto"
+                        className="w-[124px] h-[112px] mb-8"
                         src="/images/waveux-big.png"
-                        width={200}
-                        height={200}
+                        width={124}
+                        height={112}
                         alt="WaveUX Logo"
                     />
-                    <div className="mb-4 brand-header text-center">
+                    <div className="mb-4 brand-header">
                         UX com Super poderes
                     </div>
-                    <div className="body1 text-n-3 text-center">
+                    <div className="body1 text-n-3">
                         Acelere seu processo de design usando IA e tenha tempo para <span className="text-secondary-100">focar no que realmente importa!</span>
                     </div>
                 </div>
