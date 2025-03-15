@@ -5,7 +5,7 @@ import Main from "./Main";
 
 const HomePage = () => {
     return (
-        <Layout>
+        <Layout hideRightSidebar>
             <Main />
         </Layout>
     );
