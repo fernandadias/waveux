@@ -8,20 +8,17 @@ type WaveCardProps = {
 
 const WaveCard = ({ wave }: WaveCardProps) => (
     <Link
-        className="group flex flex-col p-5 bg-n-1 border border-n-3 rounded-xl transition-all hover:border-transparent hover:shadow-[0_0_1rem_0.25rem_rgba(0,0,0,0.04),0px_2rem_1.5rem_-1rem_rgba(0,0,0,0.12)] last:mb-0 2xl:p-4 lg:p-5 dark:bg-n-6 dark:border-n-5 dark:hover:border-n-7 dark:hover:bg-n-7"
+        className="group flex flex-col p-5 bg-[#161616] border border-n-3 rounded-xl transition-all hover:border-transparent hover:shadow-[0_0_1rem_0.25rem_rgba(0,0,0,0.04),0px_2rem_1.5rem_-1rem_rgba(0,0,0,0.12)] last:mb-0 2xl:p-4 lg:p-5 dark:border-n-5 dark:hover:border-n-7 dark:hover:bg-n-7"
         href={wave.url}
     >
         <div className="flex items-start mb-3">
-            <div className="relative flex justify-center items-center w-[4.5rem] h-[4.5rem] shrink-0 mr-4">
+            <div className="relative flex justify-center items-center w-14 h-14 shrink-0 mr-4">
                 <div
-                    className="absolute inset-0 opacity-20 rounded-xl"
-                    style={{
-                        backgroundColor: wave.color,
-                    }}
+                    className="absolute inset-0 opacity-20 rounded-xl bg-[#45B063]"
                 ></div>
                 <Icon
                     className="relative z-1 w-8 h-8"
-                    fill={wave.color}
+                    fill="#45B063"
                     name={wave.icon}
                 />
             </div>
