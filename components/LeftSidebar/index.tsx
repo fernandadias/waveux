@@ -47,33 +47,33 @@ const LeftSidebar = ({
 
     const navigation = [
         {
-            title: "Chats",
+            title: "Waves",
             icon: "chat",
-            color: "fill-accent-2",
+            color: "fill-primary-1",
             url: "/",
         },
         {
-            title: "Search",
+            title: "Pesquisa",
             icon: "search",
-            color: "fill-primary-2",
+            color: "fill-primary-1",
             onClick: () => setVisibleSearch(true),
         },
         {
-            title: "Manage subscription",
+            title: "Planos",
             icon: "card",
-            color: "fill-accent-4",
+            color: "fill-primary-1",
             url: "/pricing",
         },
         {
-            title: "Updates & FAQ",
+            title: "Atualizações e FAQ",
             icon: "barcode",
-            color: "fill-accent-1",
+            color: "fill-primary-1",
             url: "/updates-and-faq",
         },
         {
             title: "Settings",
             icon: "settings",
-            color: "fill-accent-3",
+            color: "fill-primary-1",
             onClick: () => setVisibleSettings(true),
         },
     ];

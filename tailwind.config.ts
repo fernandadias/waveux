@@ -81,6 +81,7 @@ const config: Config = {
             fontFamily: {
                 sans: ["var(--font-karla)"],
                 inter: "var(--font-inter)",
+                brachial: ["Brachial", "sans-serif"],
             },
             fontSize: {
                 0: ["0px", "0px"],
@@ -218,6 +219,9 @@ const config: Config = {
                 },
                 ".btn-medium svg, .btn-small svg": {
                     "@apply w-5 h-5": {},
+                },
+                ".brand-header": {
+                    "@apply font-brachial text-[64px] leading-[72px] font-bold": {},
                 },
             });
             addUtilities({

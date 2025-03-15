@@ -38,7 +38,7 @@ const ChatList = ({ visible, items }: ChatListProps) => {
                             className="fill-n-4 transition-transform ui-open:rotate-180"
                             name="arrow-down"
                         />
-                        {!visible && <div className="ml-5">Chat list</div>}
+                        {!visible && <div className="ml-5">Waves salvas</div>}
                     </Disclosure.Button>
                     <Transition
                         enter="transition duration-100 ease-out"
