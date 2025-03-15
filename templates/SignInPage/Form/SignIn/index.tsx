@@ -14,7 +14,7 @@ const SignIn = ({ onClick }: SignInProps) => {
             <Field
                 className="mb-4"
                 classInput="dark:bg-n-7 dark:border-n-7 dark:focus:bg-transparent"
-                placeholder="Username or email"
+                placeholder="Nome da conta ou E-mail"
                 icon="email"
                 value={name}
                 onChange={(e: any) => setName(e.target.value)}
@@ -23,7 +23,7 @@ const SignIn = ({ onClick }: SignInProps) => {
             <Field
                 className="mb-2"
                 classInput="dark:bg-n-7 dark:border-n-7 dark:focus:bg-transparent"
-                placeholder="Password"
+                placeholder="Senha"
                 icon="lock"
                 type="password"
                 value={password}
@@ -31,14 +31,14 @@ const SignIn = ({ onClick }: SignInProps) => {
                 required
             />
             <button
-                className="mb-6 base2 text-primary-1 transition-colors hover:text-primary-1/90"
+                className="mb-6 base2 text-secondary-100 transition-colors hover:text-secondary-100/90"
                 type="button"
                 onClick={onClick}
             >
-                Forgot password?
+                Esqueci minha senha!
             </button>
             <button className="btn-blue btn-large w-full" type="submit">
-                Sign in with Brainwave
+                Entrar no WaveUX
             </button>
         </form>
     );

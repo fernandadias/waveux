@@ -19,13 +19,13 @@ const ForgotPassword = ({ onClick }: ForgotPasswordProps) => {
                     className="mr-4 transition-transform group-hover:-translate-x-1 dark:fill-n-1"
                     name="arrow-prev"
                 />
-                Reset your password
+                Criar nova senha
             </button>
             <form action="" onSubmit={() => console.log("Submit")}>
                 <Field
                     className="mb-6"
                     classInput="dark:bg-n-7 dark:border-n-7 dark:focus:bg-transparent"
-                    placeholder="Email"
+                    placeholder="E-mail"
                     icon="email"
                     type="email"
                     value={email}
@@ -36,7 +36,7 @@ const ForgotPassword = ({ onClick }: ForgotPasswordProps) => {
                     className="btn-blue btn-large w-full mb-6"
                     type="submit"
                 >
-                    Reset password
+                    Enviar instruções por email
                 </button>
             </form>
         </>

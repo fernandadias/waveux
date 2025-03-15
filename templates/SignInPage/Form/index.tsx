@@ -7,7 +7,7 @@ import SignIn from "./SignIn";
 import CreateAccount from "./CreateAccount";
 import ForgotPassword from "./ForgotPassword";
 
-const tabNav = ["Sign in", "Create account"];
+const tabNav = ["Entrar", "Criar minha conta"];
 
 type FormProps = {};
 
@@ -45,21 +45,12 @@ const Form = ({}: FormProps) => {
                                 height={24}
                                 alt=""
                             />
-                            <span className="ml-4">Continue with Google</span>
-                        </button>
-                        <button className="btn-stroke-light btn-large w-full">
-                            <Image
-                                src="/images/apple.svg"
-                                width={24}
-                                height={24}
-                                alt=""
-                            />
-                            <span className="ml-4">Continue with Apple</span>
+                            <span className="ml-4">Entrar com o Google</span>
                         </button>
                         <div className="flex items-center my-8 md:my-4">
                             <span className="grow h-0.25 bg-n-4/50"></span>
                             <span className="shrink-0 mx-5 text-n-4/50">
-                                OR
+                                OU
                             </span>
                             <span className="grow h-0.25 bg-n-4/50"></span>
                         </div>
